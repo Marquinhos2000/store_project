@@ -1,0 +1,96 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0
+};
+
+.container {
+    text-align: center;
+}
+
+.container_menu {
+    background-color: #000;
+}
+
+.container_menu ul {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    padding: 10px;
+}
+
+.container_menu li {
+    padding: 10px;
+    color: #fff;
+}
+
+.container_logo {
+    background: #010E61;
+    background: conic-gradient(from 315deg, #010E61, #010101);
+    text-align: center;
+    padding: 10px;
+}
+
+.container_logo img:hover {
+    filter: invert();
+    transition: 0.3s;
+}
+
+.container_title h1, h3 {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    background: #010E61;
+    background: conic-gradient(from 315deg, #010E61, #010101);
+    color: #fff;
+}
+
+.container_title span {
+    color: orange;
+}
+
+.container_menu span {
+    color: orange;
+}
+
+.container_menu li:hover {
+    transition: 0.3s;
+    color: orange;
+    cursor: pointer;
+}
+
+.container2 {
+    display: flex;
+}
+
+.container_card__h3 {
+    background-color: #010101;
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+}
+
+.container_card__h3:hover {
+    background-color: rgb(0, 182, 24);
+    transition: 0.3s;
+}
+
+.container_card {
+    border: solid 1px #3b3b3b;
+    padding: 0;
+    margin: 20px;
+    width: 20%;
+    text-align: center;
+}
+
+.container_card:hover {
+    border: solid 1px #0022ff;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 30px;
+    margin: 0;
+    text-align: center;
+}
